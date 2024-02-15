@@ -3,7 +3,10 @@ import Todolist from "./ToDoList";
 function App() {
   return (
     <>
-      <Todolist />
+      <HashRouter>
+        <Todolist />
+      </HashRouter>
+      <></>
     </>
   );
 }
