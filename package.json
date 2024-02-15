@@ -2,6 +2,7 @@
   "name": "todolist",
   "private": true,
   "homepage": "https://Prajwaljanbandhu28.github.io/todolist-app",
+
   "version": "0.0.0",
   "type": "module",
   "scripts": {
@@ -10,7 +11,7 @@
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d todolist/build"    
   },
   "dependencies": {
     "gh-pages": "^6.1.1",
